@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal profile site">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#interests">Technical Interests</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- About Section -->
+        <section id="about">
+            <h1>About Me</h1>
+            <img src="images/placeholder.jpeg" alt="Profile photo placeholder">
+            <p>Hi, I'm Ali Rasekh, a second-year student studying Computer Science (AI). Welcome to my profile site!</p>
+        </section>
+
+        <!-- Technical Interests Section -->
+        <section id="interests">
+            <h2>Technical Interests</h2>
+            <article>
+                <h3>Web Development</h3>
+                <img src="images/web-development.jpeg" alt="Web Development">
+                <p>I am passionate about creating visually appealing, responsive, and user-friendly websites. Web development combines creativity and technical expertise, which I thoroughly enjoy. I love working with tools such as HTML, CSS, and JavaScript to bring innovative ideas to life on the web.</p>
+                <p>My focus is on ensuring accessibility and enhancing user experience through modern design practices. I aim to stay updated with frameworks like React and Angular to build scalable and dynamic applications.</p>
+            </article>
+            <article>
+                <h3>Data Analysis</h3>
+                <img src="images/data-analysis.jpg" alt="Data Analysis">
+                <p>Data analysis fascinates me because of its ability to transform raw data into meaningful insights. I enjoy working with databases and tools like SQL and PowerBI to uncover trends and create compelling visualizations.</p>
+                <p>My interest lies in using analytics to make informed decisions, solve complex problems, and predict future trends. Exploring big data and predictive modeling are areas I look forward to delving into.</p>
+            </article>
+            <article>
+                <h3>Artificial Intelligence</h3>
+                <img src="images/ai.jpg" alt="Artificial Intelligence">
+                <p>Artificial Intelligence is a field that excites me for its potential to revolutionize industries and improve lives. I enjoy learning about machine learning algorithms, natural language processing, and neural networks.</p>
+                <p>Building intelligent systems that can analyze, learn, and adapt is a challenge I am eager to embrace. Python and TensorFlow are tools I actively use to explore this fascinating domain.</p>
+            </article>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio">
+            <h2>Portfolio</h2>
+            <div class="project">
+                <h3>Weather App</h3>
+                <button onclick="openProjectDetails('Weather App')">More Details</button>
+            </div>
+            <div class="project">
+                <h3>Student Tracker</h3>
+                <button onclick="openProjectDetails('Student Tracker')">More Details</button>
+            </div>
+            <div class="project">
+                <h3>AI Chatbot</h3>
+                <button onclick="openProjectDetails('AI Chatbot')">More Details</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ali Rasekh. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
