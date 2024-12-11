@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+// Open Project Details
+>>>>>>> 6b6d1024fd7acb36bc650f3f695366ce01e0f1d4
 function openProjectDetails(projectId) {
     const projectDetails = {
         'Weather App': "The Weather App showcases my skills in frontend development, built with Flutter and API integration. Users can view weather information for selected countries.",
@@ -45,4 +49,8 @@ function openProjectDetails(projectId) {
 
     document.body.appendChild(overlay);
     document.body.appendChild(modal);
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 6b6d1024fd7acb36bc650f3f695366ce01e0f1d4
